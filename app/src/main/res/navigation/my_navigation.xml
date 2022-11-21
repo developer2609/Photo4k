@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.a4kpictures.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/likeImageFragment"
+        android:name="com.example.a4kpictures.fragment.LikeImageFragment"
+        android:label="fragment_like_image"
+        tools:layout="@layout/fragment_like_image" />
+    <fragment
+        android:id="@+id/viewPagerItemFragment"
+        android:name="com.example.a4kpictures.fragment.ViewPagerItemFragment"
+        android:label="fragment_view_pager_item"
+        tools:layout="@layout/fragment_view_pager_item" />
+    <fragment
+        android:id="@+id/clicableFragment"
+        android:name="com.example.a4kpictures.fragment.ClicableFragment"
+        android:label="fragment_clicable"
+        tools:layout="@layout/fragment_clicable" />
+</navigation>
